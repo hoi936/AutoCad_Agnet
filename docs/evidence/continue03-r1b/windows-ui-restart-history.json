@@ -1,0 +1,6 @@
+{
+    "BuildTitle":  "CAD Agent Studio — CAD chưa kết nối — r1b-1791345882",
+    "ConversationSelectorPresent":  true,
+    "ConversationSelectorEnabled":  true,
+    "Scope":  "Native UI after process restart; separate SQLite persistence check in windows-live-runtime.json"
+}

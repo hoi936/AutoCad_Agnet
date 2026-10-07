@@ -1,0 +1,8 @@
+Exit: 0
+warning: failed to parse serde attribute
+  | 
+  | deny_unknown_fields 
+  | 
+  = note: ts-rs failed to parse this attribute. It will be ignored.
+   Compiling cad-tool-host v0.1.0 (D:\PHAN DINH HOI\AutoCad_agnet\crates\cad-tool-host)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 3.43s

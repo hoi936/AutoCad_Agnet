@@ -1,0 +1,19 @@
+// Generated from cad-contracts. Do not edit.
+export type PlateParameters = { schema_version: number, width: number, height: number, hole_diameter: number, edge_offset: number, origin: [number, number], units: Units, add_dimensions: boolean, };
+export type Units = "mm";
+export type Entity = { "kind": "polyline", id: string, layer: string, points: [[number, number], [number, number], [number, number], [number, number]], closed: boolean, } | { "kind": "circle", id: string, layer: string, center: [number, number], radius: number, } | { "kind": "dimension", id: string, layer: string, measurement: number, role: string, };
+export type Geometry = { parameters: PlateParameters, entities: Array<Entity>, };
+export type Project = { id: string, name: string, };
+export type RunMode = "ask" | "plan" | "execute";
+export type DocumentContext = { document_id: string, project_id: string, session_id: string, revision: number, geometry: Geometry | null, mode: string, units: Units, };
+export type ChangePayload = { schema_version: number, project_id: string, document_id: string, session_id: string, base_revision: number, mode: RunMode, before: Geometry | null, after: Geometry | null, created_at: number, expires_at: number, reverts: string | null, };
+export type ChangeSet = { id: string, payload_hash: string, status: string, payload: ChangePayload, };
+export type ExecutionReceipt = { operation_id: string, change_set_id: string, payload_hash: string, observed_revision: number, status: string, saved_to_dwg: boolean, };
+export type AppError = { code: string, message: string, retryable: boolean, correlation_id: string, safe_details: string | null, };
+export type Conversation = { id: string, project_id: string, title: string, created_at: number, };
+export type ChatMessage = { id: string, conversation_id: string, run_id: string | null, role: string, content: string, created_at: number, };
+export type AgentRun = { id: string, conversation_id: string, project_id: string, mode: RunMode, provider: string, model: string, status: string, error_code: string | null, started_at: number, finished_at: number | null, };
+export type RunEvent = { run_id: string, sequence: number, kind: string, text: string | null, tool_name: string | null, change_set_id: string | null, created_at: number, };
+export type ConversationSnapshot = { conversation: Conversation, messages: Array<ChatMessage>, runs: Array<AgentRun>, };
+export type RunSnapshot = { run: AgentRun, events: Array<RunEvent>, change_sets: Array<ChangeSet>, };
+export type ProviderConfig = { project_id: string, provider: string, model: string, secret_ref: string | null, cloud_consent: boolean, configured: boolean, storage: string, };

@@ -1,0 +1,47 @@
+{
+  "auth_route": "chatgpt",
+  "auth_status": "catalog_verified",
+  "cad": "disconnected",
+  "catalog": {
+    "count": 4,
+    "result": "LIVE_PASS",
+    "selected_model": "gpt-5.6-luna",
+    "selection": "preserve saved model or first actual catalog entry"
+  },
+  "chat": {
+    "error_code": null,
+    "result": "LIVE_PASS",
+    "run_id": "4533d9da-387b-4701-ada0-27cfc2741363",
+    "status": "completed",
+    "text": "Để thiết kế sơ bộ nhà **8 × 12 m**, bạn nên cung cấp:\n\n- **Số tầng** và nhu cầu sử dụng.\n- **Số phòng**: phòng khách, bếp, phòng ngủ, WC, phòng thờ, kho…\n- **Phong cách kiến trúc** mong muốn.\n- **Hướng đất/ hướng nhà**, vị trí mặt tiền và đường vào.\n- **Kích thước, hình dạng khu đất** và phần sân, vườn, chỗ đậu xe.\n- **Nhu cầu đặc biệt**: giếng trời, ban công, sân thượng, thang máy…\n- **Ngân sách dự kiến** và mức độ hoàn thiện.\n- **Quy định xây dựng địa phương** nếu có: mật độ, số tầng, khoảng lùi.\n- **Số người sử dụng** và ưu tiên về thông thoáng, ánh sáng.\n\nHiện chưa kết nối AutoCAD nên tôi chỉ có thể hỗ trợ lập brief và phương án sơ bộ bằng mô tả.",
+    "trace": []
+  },
+  "probe": {
+    "error_code": null,
+    "result": "LIVE_PASS",
+    "run_id": "e8f5c664-b28a-470c-9b84-b1b84a141111",
+    "status": "completed",
+    "text": "1.25 m = **1250 mm**.",
+    "trace": [
+      {
+        "arguments": {
+          "from": "m",
+          "to": "mm",
+          "value": 1.25
+        },
+        "call_id": "call_GQ96mAv6u480y2ClbSczLGAD",
+        "output": {
+          "unit": "mm",
+          "value": 1250.0
+        },
+        "tool": "convert_length"
+      }
+    ]
+  },
+  "restart": {
+    "messages": 4,
+    "result": "NATIVE_PASS",
+    "scope": "runtime drop/reopen, not GUI restart"
+  },
+  "scope": "Native AppRuntime; not full desktop UI E2E"
+}

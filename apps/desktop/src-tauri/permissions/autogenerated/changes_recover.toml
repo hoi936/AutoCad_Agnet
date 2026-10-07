@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-changes-recover"
+description = "Enables the changes_recover command without any pre-configured scope."
+commands.allow = ["changes_recover"]
+
+[[permission]]
+identifier = "deny-changes-recover"
+description = "Denies the changes_recover command without any pre-configured scope."
+commands.deny = ["changes_recover"]

@@ -1,0 +1,62 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "PlateParameters",
+  "type": "object",
+  "properties": {
+    "add_dimensions": {
+      "type": "boolean"
+    },
+    "edge_offset": {
+      "type": "number",
+      "format": "double"
+    },
+    "height": {
+      "type": "number",
+      "format": "double"
+    },
+    "hole_diameter": {
+      "type": "number",
+      "format": "double"
+    },
+    "origin": {
+      "type": "array",
+      "items": {
+        "type": "number",
+        "format": "double"
+      },
+      "maxItems": 2,
+      "minItems": 2
+    },
+    "schema_version": {
+      "type": "integer",
+      "format": "uint32",
+      "minimum": 0
+    },
+    "units": {
+      "$ref": "#/$defs/Units"
+    },
+    "width": {
+      "type": "number",
+      "format": "double"
+    }
+  },
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "width",
+    "height",
+    "hole_diameter",
+    "edge_offset",
+    "origin",
+    "units",
+    "add_dimensions"
+  ],
+  "$defs": {
+    "Units": {
+      "type": "string",
+      "enum": [
+        "mm"
+      ]
+    }
+  }
+}

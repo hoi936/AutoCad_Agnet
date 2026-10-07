@@ -1,0 +1,11 @@
+Exit: 0
+Catalog, probe, chat and runtime reopen passed. Evidence: D:\PHAN DINH HOI\AutoCad_agnet\docs\evidence\continue03-r1b\windows-live-runtime.json
+warning: failed to parse serde attribute
+  | 
+  | deny_unknown_fields 
+  | 
+  = note: ts-rs failed to parse this attribute. It will be ignored.
+   Compiling cad-model-provider v0.1.0 (D:\PHAN DINH HOI\AutoCad_agnet\crates\model-provider)
+   Compiling cad-app-core v0.1.0 (D:\PHAN DINH HOI\AutoCad_agnet\crates\app-core)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 4.61s
+     Running `target\debug\examples\verify_live.exe --live C:\Users\ADMIN\AppData\Roaming\vn.cadagent.studio "D:\PHAN DINH HOI\AutoCad_agnet\docs\evidence\continue03-r1b\windows-live-runtime.json"`

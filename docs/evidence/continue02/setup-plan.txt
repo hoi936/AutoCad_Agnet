@@ -1,0 +1,13 @@
+Exit: 0
+PLAN: no AutoCAD upgrade, security-policy changes, broad trusted paths, or application elevation.
+Node: choose an explicit version compatible with locked Vite (20.19+ or 22.12+); pnpm: 10.18.3.
+Rust: MSVC host; install rustup then verify rustc/cargo and host target.
+Build Tools: C++ workload including MSVC and Windows SDK. WebView2: reuse if installed.
+.NET/AutoCAD: choose a verified bridge profile first; this script does not install or alter AutoCAD.
+Official sources: https://nodejs.org/ https://rustup.rs/ https://visualstudio.microsoft.com/downloads/ https://developer.microsoft.com/microsoft-edge/webview2/
+PLAN ONLY. Run doctor.ps1. No installer was started.
+Package candidate: Microsoft.VisualStudio.2022.BuildTools
+Package candidate: OpenJS.NodeJS.LTS
+Package candidate: Rustlang.Rustup
+Package candidate: Microsoft.EdgeWebView2Runtime
+After explicit approval: use -Install -Component <name> -Version <reviewed exact version>; inspect winget show first.

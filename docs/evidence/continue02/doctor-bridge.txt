@@ -1,0 +1,53 @@
+Exit: 1
+[PASS] Reviewed Vite Node engine - Expected engine from locked Vite; changed requirements need review before installation.
+[GROUP] Desktop development
+[MISSING] node - Not available on this Windows PATH.
+[MISSING] pnpm - Not available on this Windows PATH.
+[MISSING] cargo - Not available on this Windows PATH.
+[MISSING] rustc - Not available on this Windows PATH.
+[MISSING] rustup - Not available on this Windows PATH.
+[MISSING] Visual Studio C++ MSVC x64 - VS Build Tools C++ x64 and linker were not located by vswhere.
+[MISSING] Windows SDK headers - Windows SDK (UM and UCRT) headers not located.
+[PASS] WebView2 Runtime - 154.0.4258.62
+[GROUP] Repository dependencies and packaged artifacts
+Locked Tauri CLI: 2.12.1; Vite: 7.3.6
+[MISSING] Locked Tauri CLI package - Run pnpm install --frozen-lockfile in Windows; Linux node_modules is not a Windows install.
+[MISSING] Windows Tauri CLI binary package - Windows CLI platform dependency must be installed; presence alone does not prove launch.
+[INFO] target/debug/cad-tool-host.exe: False
+[INFO] target/release/cad-tool-host.exe: False
+[INFO] apps/desktop/src-tauri/tauri.conf.json: True
+[GROUP] Bridge prerequisites (not required for mock desktop)
+[INFO] .NET SDKs: none observed
+[INFO] Verified bridge profile: False
+[MISSING] .NET SDK - Select SDK only after verifying the target AutoCAD runtime.
+[MISSING] Verified bridge profile - No runtime inferred from an AutoCAD folder name.
+[OBSERVED] Autodesk AutoCAD Mechanical 2024 - English; registered version=28.0.51.0
+[OBSERVED] AutoCAD Mechanical; registered version=28.0.51.0
+[OBSERVED] reference AcMgd.dll; assembly version=24.3.0.0
+[OBSERVED] reference AcDbMgd.dll; assembly version=24.3.0.0
+[OBSERVED] reference AcCoreMgd.dll; assembly version=24.3.0.0
+[OBSERVED] acad.exe product=R24.3.61.0.0; file=R24.3.61.0.0
+[OBSERVED] AutoCAD Mechanical 2024 Shared; registered version=28.0.51.0
+[OBSERVED] reference AcMgd.dll; assembly version=24.3.0.0
+[OBSERVED] reference AcDbMgd.dll; assembly version=24.3.0.0
+[OBSERVED] reference AcCoreMgd.dll; assembly version=24.3.0.0
+[OBSERVED] acad.exe product=R24.3.61.0.0; file=R24.3.61.0.0
+[OBSERVED] AutoCAD Mechanical 2024 - English; registered version=28.0.51.0
+[OBSERVED] reference AcMgd.dll; assembly version=24.3.0.0
+[OBSERVED] reference AcDbMgd.dll; assembly version=24.3.0.0
+[OBSERVED] reference AcCoreMgd.dll; assembly version=24.3.0.0
+[OBSERVED] acad.exe product=R24.3.61.0.0; file=R24.3.61.0.0
+[OBSERVED] AutoCAD Mechanical 2024 Shared Language Pack - English; registered version=24.3.61.0
+[OBSERVED] AutoCAD 2026 - English; registered version=25.1.60.0
+[OBSERVED] reference AcMgd.dll; assembly version=25.1.0.0
+[OBSERVED] reference AcDbMgd.dll; assembly version=25.1.0.0
+[OBSERVED] reference AcCoreMgd.dll; assembly version=25.1.0.0
+[OBSERVED] acad.exe product=R25.1.179.0.0; file=R25.1.179.0.0
+[OBSERVED] Autodesk AutoCAD 2026 - English; registered version=25.1.179.0
+[OBSERVED] AutoCAD Open in Desktop; registered version=1.0.28.0
+[OBSERVED] Autodesk AutoCAD 2026.1.2 Update; registered version=25.1.179.0
+[INFO] acad processes observed: 1; installed/running does not mean paired or connected.
+[INFO] Bridge bundle manifest: False
+[INFO] Plugin handshake/readback not performed. AutoCAD write readiness is unverified.
+Doctor only checks prerequisites. It does not prove native build, app startup, credential access, or installer operation.
+Missing prerequisites: node, pnpm, cargo, rustc, rustup, Visual Studio C++ MSVC x64, Windows SDK headers, Locked Tauri CLI package, Windows Tauri CLI binary package, .NET SDK, Verified bridge profile

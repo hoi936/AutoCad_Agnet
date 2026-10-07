@@ -1,0 +1,22 @@
+{
+  "auth_route": "chatgpt",
+  "auth_status": "catalog_verified",
+  "cad": "disconnected",
+  "catalog": {
+    "count": 4,
+    "result": "LIVE_PASS",
+    "selected_model": "gpt-5.6-luna",
+    "selection": "preserve saved model or first actual catalog entry"
+  },
+  "chat": "NOT_RUN",
+  "probe": {
+    "error_code": "provider_invalid_response",
+    "result": "FAILED",
+    "run_id": "d0f78507-9d7d-401d-bcc1-f83649c3ef6f",
+    "status": "failed",
+    "text": "Phản hồi nhà cung cấp không hợp lệ hoặc chưa hoàn tất.",
+    "trace": []
+  },
+  "restart": "NOT_RUN",
+  "scope": "Native AppRuntime; not full desktop UI E2E"
+}

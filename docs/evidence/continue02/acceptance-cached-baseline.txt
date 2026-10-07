@@ -1,0 +1,8 @@
+
+running 3 tests
+test first_mcp_open_imports_existing_in_process_geometry_and_history ... ok
+test committed_cad_with_failed_local_receipt_recovers_without_replay ... ok
+test chat_through_real_mcp_approval_resize_revert_restart ... ok
+
+test result: ok. 3 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.32s
+

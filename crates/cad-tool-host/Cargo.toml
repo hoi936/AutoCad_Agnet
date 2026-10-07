@@ -1,0 +1,25 @@
+[package]
+name = "cad-tool-host"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+[features]
+fault-injection = []
+[dependencies]
+cad-contracts = { path = "../contracts" }
+serde.workspace = true
+serde_json.workspace = true
+sha2.workspace = true
+uuid.workspace = true
+tokio = { version = "1", features = ["macros","rt-multi-thread","sync","process","io-util","io-std","time","net"] }
+rmcp = { version = "=3.5.0", default-features = false, features = ["server","client","macros","transport-io","transport-child-process"] }
+async-trait = "0.1"
+hmac = "0.12"
+rand = "0.8"
+zeroize = "1"
+fs2 = "0.4"
+tempfile = "3"
+[target.'cfg(windows)'.dependencies]
+windows-sys = { version = "0.61", features = ["Win32_System_Pipes"] }
+[dev-dependencies]
+tempfile = "3"

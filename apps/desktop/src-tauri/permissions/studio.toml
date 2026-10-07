@@ -1,0 +1,4 @@
+[[permission]]
+identifier = "studio-commands"
+description = "Local main window commands only; no arbitrary tool, filesystem or shell"
+commands.allow = ["account_list","account_add_key","account_sign_in","account_cancel_login","account_sign_out","model_catalog","account_select_model","standalone_conversations","standalone_create","standalone_messages","standalone_start","standalone_snapshot","standalone_cancel","runtime_status", "demo_enter", "health", "projects_list", "projects_create", "cad_get_context", "design_propose_plate", "changes_list", "changes_approve", "changes_reject", "changes_revert", "changes_recover", "conversations_create", "conversations_list", "conversation_snapshot", "agent_start", "agent_snapshot", "agent_stop", "provider_get_config", "provider_save_config", "provider_set_secret", "provider_delete_secret"]

@@ -1,0 +1,125 @@
+Exit: 0
+
+running 21 tests
+test agent::tests::consent_prevents_provider_call_and_config_never_contains_secret ... ok
+test agent::tests::new_proposal_and_provider_change_revoke_old_approvals ... ok
+test agent::tests::version_one_migration_preserves_project_document_geometry_and_history ... ok
+test standalone::tests::conversion_validation ... ok
+test agent::tests::version_three_pending_upgrade_preserves_unknown_outcomes ... ok
+test agent::tests::stale_running_state_is_interrupted_on_reopen_without_replay ... ok
+test standalone::loop_tests::bounded_tool_loop_and_real_output_continuation ... ok
+test provider_service::tests::session_opt_in_missing_key_consent_and_no_db_secret ... ok
+test agent::tests::cancellation_and_one_active_run_are_persisted ... ok
+test tests::strict_contract ... ok
+test agent::tests::provider_failures_are_visible_and_never_fall_back_to_success ... ok
+test agent::tests::secrets_are_redacted_from_prompt_messages_stream_and_database ... ok
+test tests::concurrent_approval_and_foreign_keys ... ok
+test agent::tests::new_unsupported_request_invalidates_old_form_and_chat_approvals ... ok
+test tests::approval_resize_revert_persistence ... ok
+test standalone::tests::standalone_persists_without_project_or_gateway ... ok
+test tests::receipt_failure_rolls_back_geometry_and_approval ... ok
+test tests::policy_reject_conflict_expiry_session ... ok
+test agent::tests::chat_create_reject_approve_resize_revert_and_restart ... ok
+test agent::tests::ask_plan_and_hostile_tool_names_are_enforced_in_backend ... ok
+test agent::tests::invalid_json_repairs_and_loop_are_bounded_without_mutation ... ok
+
+test result: ok. 21 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 1.42s
+
+
+running 3 tests
+test first_mcp_open_imports_existing_in_process_geometry_and_history ... ok
+test committed_cad_with_failed_local_receipt_recovers_without_replay ... ok
+test chat_through_real_mcp_approval_resize_revert_restart ... ok
+
+test result: ok. 3 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 2.49s
+
+
+running 4 tests
+test geometry::tests::rejects_invalid_parameters ... ok
+test tests::frontend_types_match_rust ... ok
+test geometry::tests::plate_and_resize ... ok
+test tests::schema_and_fixture_match_rust ... ok
+
+test result: ok. 4 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+
+running 24 tests
+test oauth::refresh_tests::rotation_expiry_and_missing_refresh_fail_closed ... ok
+test oauth::tests::identity_nonce_expiry_and_permission ... ok
+test openai::route_tests::catalog_routes_are_distinct ... ok
+test mock::tests::cancellation_interrupts_wait_and_blocked_events ... ok
+test oauth::tests::callback_state_registration_and_duplicates ... ok
+test openai::route_tests::plan_serializer_removes_unsupported_limits_and_wraps_tools ... ok
+test mock::tests::hostile_fixtures_and_error_codes_are_real ... ok
+test mock::tests::create_and_resize_are_deterministic_and_unknown_prompt_is_not_success ... ok
+test openai::tests::sse_decoder_preserves_utf8_and_multiline_data_at_every_byte_boundary ... ok
+test openai::tests::tool_mapping_is_bijective_and_optional_schema_fields_become_nullable ... ok
+test secret::tests::poisoned_session_store_reports_vault_error ... ok
+test secret::tests::replace_delete_and_debug_never_reveal_secret ... ok
+test secret::tests::windows_credential_roundtrip_and_cleanup ... ignored, Explicit Windows credential integration; writes only a unique test namespace entry
+test oauth::signed_identity_tests::signature_issuer_audience_nonce_expiry_and_selected_identity ... ok
+test openai::tests::hostile_request_and_size_caps_fail_closed ... ok
+test openai::tests::reflected_key_is_scrubbed_across_fragments_and_never_continued ... ok
+test openai::tests::http_stream_assembles_parallel_calls_and_replays_opaque_continuation_with_ids ... ok
+test openai::tests::reconciles_call_by_item_id_when_final_output_indices_shift ... ok
+test openai::tests::timeout_and_cancellation_interrupt_real_http_wait ... ok
+test openai::tests::missing_content_type_requires_valid_completed_sse ... ok
+test openai::tests::invalid_arguments_forbidden_tool_and_truncated_stream_never_return_calls ... ok
+test openai::tests::http_errors_are_classified_without_response_bodies_or_redirects ... ok
+test openai::tests::compact_terminal_event_uses_completed_items_but_never_partial_or_interrupted_items ... ok
+test oauth::tests::cancel_closes_loopback_and_state_failure_is_one_shot ... ok
+
+test result: ok. 23 passed; 0 failed; 1 ignored; 0 measured; 0 filtered out; finished in 4.05s
+
+
+running 1 test
+test tests::large_unicode_rotation_restart_corruption_and_delete ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.06s
+
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+warning: failed to parse serde attribute
+  | 
+  | deny_unknown_fields 
+  | 
+  = note: ts-rs failed to parse this attribute. It will be ignored.
+warning: failed to parse serde attribute
+  | 
+  | deny_unknown_fields 
+  | 
+  = note: ts-rs failed to parse this attribute. It will be ignored.
+   Compiling cad-app-core v0.1.0 (D:\PHAN DINH HOI\AutoCad_agnet\crates\app-core)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 10.58s
+     Running unittests src\lib.rs (target\debug\deps\cad_app_core-786140a86c3bab3b.exe)
+     Running tests\mcp_acceptance.rs (target\debug\deps\mcp_acceptance-3393fb41e7f35ded.exe)
+     Running unittests src\lib.rs (target\debug\deps\cad_contracts-b96e001a4997bbeb.exe)
+     Running unittests src\lib.rs (target\debug\deps\cad_model_provider-a22274fdb607e0a1.exe)
+     Running unittests src\lib.rs (target\debug\deps\cad_native_vault-51e25bd7f745e0de.exe)
+   Doc-tests cad_app_core
+   Doc-tests cad_contracts
+[0m[1m[38;5;11mwarning[0m[1m[38;5;15m: failed to parse serde attribute
+[0m[1m[38;5;12m  | 
+  | [0m[38;5;15mdeny_unknown_fields 
+[0m[1m[38;5;12m  | 
+  = [0m[1m[38;5;15mnote: [0m[38;5;15mts-rs failed to parse this attribute. It will be ignored.
+   Doc-tests cad_model_provider
+   Doc-tests cad_native_vault

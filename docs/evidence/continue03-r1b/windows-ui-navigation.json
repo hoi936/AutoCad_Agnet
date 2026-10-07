@@ -1,0 +1,7 @@
+{
+    "BuildTitle":  "CAD Agent Studio — Chưa kết nối — r1b-1791343994",
+    "Navigation":  "Connections opened",
+    "LoginVisible":  true,
+    "LoginEnabled":  true,
+    "Scope":  "Native UI navigation only; no login or token access; no full IPC E2E"
+}

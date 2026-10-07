@@ -1,0 +1,12 @@
+Exit: 0
+PASS parse doctor.ps1
+PASS parse setup-windows.ps1
+PASS parse start-desktop.ps1
+PASS parse build-windows.ps1
+PASS setup  -> 0
+PASS setup -Install -> 1
+PASS setup -Install -Component node -> 1
+PASS setup -Install -Component node -Version 18.20.0 -> 1
+PASS setup -Install -Component node -Version 22.12.0 -WhatIf -> 0
+PASS setup -Install -Component pnpm -Version 1.0.0 -> 1
+PASS: 10 checks; no installation performed.

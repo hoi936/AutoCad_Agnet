@@ -1,0 +1,11 @@
+{
+    "BinaryPath":  "D:\\PHAN DINH HOI\\AutoCad_agnet\\target\\native-smoke\\Chat R1 9AD3AF4010FD\\cad-agent-studio.exe",
+    "SHA256":  "9AD3AF4010FDBF80E3751D875746E945810C12888B0BCCF57956DE11DD31918F",
+    "Bytes":  28780544,
+    "ProcessId":  6016,
+    "WindowTitle":  "CAD Agent Studio — Chưa kết nối — r1-1791337133",
+    "HasWindow":  true,
+    "Responding":  true,
+    "MockSidecarChildren":  0,
+    "Scope":  "Native unconnected startup; no login, no DWG, no UI E2E"
+}

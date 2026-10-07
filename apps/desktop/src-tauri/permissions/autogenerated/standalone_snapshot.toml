@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-standalone-snapshot"
+description = "Enables the standalone_snapshot command without any pre-configured scope."
+commands.allow = ["standalone_snapshot"]
+
+[[permission]]
+identifier = "deny-standalone-snapshot"
+description = "Denies the standalone_snapshot command without any pre-configured scope."
+commands.deny = ["standalone_snapshot"]

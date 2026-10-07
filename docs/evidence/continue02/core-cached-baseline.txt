@@ -1,0 +1,20 @@
+
+running 15 tests
+test agent::tests::consent_prevents_provider_call_and_config_never_contains_secret ... ok
+test agent::tests::version_one_migration_preserves_project_document_geometry_and_history ... ok
+test tests::concurrent_approval_and_foreign_keys ... ok
+test tests::strict_contract ... ok
+test provider_service::tests::session_opt_in_missing_key_consent_and_no_db_secret ... ok
+test agent::tests::stale_running_state_is_interrupted_on_reopen_without_replay ... ok
+test tests::approval_resize_revert_persistence ... ok
+test tests::receipt_failure_rolls_back_geometry_and_approval ... ok
+test agent::tests::cancellation_and_one_active_run_are_persisted ... ok
+test tests::policy_reject_conflict_expiry_session ... ok
+test agent::tests::provider_failures_are_visible_and_never_fall_back_to_success ... ok
+test agent::tests::invalid_json_repairs_and_loop_are_bounded_without_mutation ... ok
+test agent::tests::chat_create_reject_approve_resize_revert_and_restart ... ok
+test agent::tests::ask_plan_and_hostile_tool_names_are_enforced_in_backend ... ok
+test agent::tests::secrets_are_redacted_from_prompt_messages_stream_and_database ... ok
+
+test result: ok. 15 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.48s
+

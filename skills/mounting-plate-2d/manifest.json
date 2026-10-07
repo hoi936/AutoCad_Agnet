@@ -1,0 +1,25 @@
+{
+  "name": "mounting-plate-2d",
+  "version": "0.1.0",
+  "description": "Tấm đế 2D bốn lỗ",
+  "entrypoint": "SKILL.md",
+  "input_schema": "input.schema.json",
+  "required_tools": [
+    "design.propose_plate"
+  ],
+  "requested_permissions": [
+    "cad.read",
+    "cad.propose"
+  ],
+  "supported_document_modes": [
+    "mock"
+  ],
+  "minimum_bridge_capabilities": [],
+  "resources": [
+    "SKILL.md",
+    "input.schema.json",
+    "references/conventions.md",
+    "tests/cases.json"
+  ],
+  "content_hash": "ef24f32eec02065fb2e40ae722e48365df4f6a06c3cbb4e6a8016edb5754f239"
+}

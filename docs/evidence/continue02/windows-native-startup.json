@@ -1,0 +1,12 @@
+{
+  "BinaryPath": "D:\\PHAN DINH HOI\\AutoCad_agnet\\target\\native-smoke\\Bản chạy thử\\cad-agent-studio.exe",
+  "ProcessId": 4860,
+  "MainWindowTitle": "CAD Agent Studio — Mô phỏng",
+  "HasWindow": true,
+  "Responding": true,
+  "AppSHA256": "ADAEA7CC837C9EF7B74D439323D04DB9455A14F97AE78C55E53233D1A11D45AD",
+  "AppBytes": 28750848,
+  "SidecarSHA256": "A11B16165E6644BFC27346362D0BF03CE2515B683B209CE8FCA9A97768768309",
+  "SidecarBytes": 3153920,
+  "Scope": "Native startup only; not full IPC E2E or AutoCAD live"
+}

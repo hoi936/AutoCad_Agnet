@@ -1,0 +1,9 @@
+Exit: 0
+
+> cad-agent-studio@0.1.0 typecheck D:\PHAN DINH HOI\AutoCad_agnet
+> pnpm --filter @cad/desktop typecheck
+
+
+> @cad/desktop@0.1.0 typecheck D:\PHAN DINH HOI\AutoCad_agnet\apps\desktop
+> tsc --noEmit
+

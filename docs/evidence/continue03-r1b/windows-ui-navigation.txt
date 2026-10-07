@@ -1,0 +1,2 @@
+Result: NOT RUN
+Windows UIAutomation did not expose the Connections navigation button. No login button was clicked. Startup evidence is not IPC/UI E2E evidence.

@@ -1,0 +1,9 @@
+
+running 4 tests
+test oversized_frame_is_bounded ... ok
+test permit_tamper_expiry_document_session_and_mode_denied ... ok
+test commit_then_disconnect_keeps_receipt_and_never_replays ... ok
+test real_stdio_negotiate_discover_apply_readback_restart_and_resize ... ok
+
+test result: ok. 4 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 1.05s
+

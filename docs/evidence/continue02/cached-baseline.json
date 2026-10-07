@@ -1,0 +1,37 @@
+[
+  {
+    "case": "core",
+    "binary": "target/debug/deps/cad_app_core-5479f4192508dd07",
+    "sha256": "5e616912bbe1248efbf61a5eaeefc71ad09136deb32ab63a3d0f0545f591fc91",
+    "exit": 0,
+    "kind": "rerun existing artifact; not rebuilt this turn"
+  },
+  {
+    "case": "contracts",
+    "binary": "target/debug/deps/cad_contracts-5eec679eef13179e",
+    "sha256": "e515d15acfb81a7f46d7492a0b8d6b27f53775e57fb7c42c1f960c8840dcc393",
+    "exit": 0,
+    "kind": "rerun existing artifact; not rebuilt this turn"
+  },
+  {
+    "case": "provider",
+    "binary": "target/debug/deps/cad_model_provider-0cb37d350cd6add2",
+    "sha256": "e849bad3e23c2361727e754675efcdef35545c479334730990a98413861cbdce",
+    "exit": 0,
+    "kind": "rerun existing artifact; not rebuilt this turn"
+  },
+  {
+    "case": "acceptance",
+    "binary": "target/debug/deps/mcp_acceptance-a6ef684a224972fd",
+    "sha256": "16eaf5a05d1c484a56dfefa6f3f2652a458812ea27c5abba5c53561f58b0ef56",
+    "exit": 0,
+    "kind": "rerun existing artifact; not rebuilt this turn"
+  },
+  {
+    "case": "mcp",
+    "binary": "target/debug/deps/mcp_process-ff0e649e57297c74",
+    "sha256": "5dceb5118c4ea6de5e4c5552570adebb6627f8102d7eb068a4014981f5d9fccb",
+    "exit": 0,
+    "kind": "rerun existing artifact; not rebuilt this turn"
+  }
+]

@@ -1,0 +1,54 @@
+Exit: 0
+[PASS] Reviewed Vite Node engine - Expected engine from locked Vite; changed requirements need review before installation.
+[GROUP] Desktop development
+[PASS] node - C:\Program Files\nodejs\node.exe
+[PASS] cargo - C:\Users\ADMIN\.cargo\bin\cargo.exe
+[PASS] rustc - C:\Users\ADMIN\.cargo\bin\rustc.exe
+[PASS] rustup - C:\Users\ADMIN\.cargo\bin\rustup.exe
+[PASS] pnpm - C:\Users\ADMIN\AppData\Roaming\npm\node_modules\pnpm\bin\pnpm.cjs
+[PASS] Node/Vite compatibility - Node 24.12.0
+[PASS] pnpm version - 10.18.3
+[PASS] Rust MSVC host - Host: x86_64-pc-windows-msvc
+[PASS] Visual Studio C++ MSVC x64 - C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\VC\Tools\MSVC\14.44.35207\bin\Hostx64\x64\link.exe
+[PASS] Windows SDK headers - 10.0.26100.0
+[PASS] WebView2 Runtime - 154.0.4258.62
+[GROUP] Repository dependencies and packaged artifacts
+Locked Tauri CLI: 2.12.1; Vite: 7.3.6
+[PASS] Locked Tauri CLI package - Run pnpm install --frozen-lockfile in Windows; Linux node_modules is not a Windows install.
+[PASS] Windows Tauri CLI binary package - Windows CLI platform dependency must be installed; presence alone does not prove launch.
+[INFO] target/debug/cad-tool-host.exe: True
+[INFO] target/release/cad-tool-host.exe: True
+[INFO] apps/desktop/src-tauri/tauri.conf.json: True
+[GROUP] Bridge prerequisites (not required for mock desktop)
+[INFO] .NET SDKs: 10.0.300 [C:\Program Files\dotnet\sdk]
+[INFO] Verified bridge profile: False
+[OBSERVED] Autodesk AutoCAD Mechanical 2024 - English; registered version=28.0.51.0
+[OBSERVED] AutoCAD Mechanical; registered version=28.0.51.0
+[OBSERVED] reference AcMgd.dll; assembly version=24.3.0.0
+[OBSERVED] reference AcDbMgd.dll; assembly version=24.3.0.0
+[OBSERVED] reference AcCoreMgd.dll; assembly version=24.3.0.0
+[OBSERVED] acad.exe product=R24.3.61.0.0; file=R24.3.61.0.0
+[OBSERVED] AutoCAD Mechanical 2024 Shared; registered version=28.0.51.0
+[OBSERVED] reference AcMgd.dll; assembly version=24.3.0.0
+[OBSERVED] reference AcDbMgd.dll; assembly version=24.3.0.0
+[OBSERVED] reference AcCoreMgd.dll; assembly version=24.3.0.0
+[OBSERVED] acad.exe product=R24.3.61.0.0; file=R24.3.61.0.0
+[OBSERVED] AutoCAD Mechanical 2024 - English; registered version=28.0.51.0
+[OBSERVED] reference AcMgd.dll; assembly version=24.3.0.0
+[OBSERVED] reference AcDbMgd.dll; assembly version=24.3.0.0
+[OBSERVED] reference AcCoreMgd.dll; assembly version=24.3.0.0
+[OBSERVED] acad.exe product=R24.3.61.0.0; file=R24.3.61.0.0
+[OBSERVED] AutoCAD Mechanical 2024 Shared Language Pack - English; registered version=24.3.61.0
+[OBSERVED] AutoCAD 2026 - English; registered version=25.1.60.0
+[OBSERVED] reference AcMgd.dll; assembly version=25.1.0.0
+[OBSERVED] reference AcDbMgd.dll; assembly version=25.1.0.0
+[OBSERVED] reference AcCoreMgd.dll; assembly version=25.1.0.0
+[OBSERVED] acad.exe product=R25.1.179.0.0; file=R25.1.179.0.0
+[OBSERVED] Autodesk AutoCAD 2026 - English; registered version=25.1.179.0
+[OBSERVED] AutoCAD Open in Desktop; registered version=1.0.28.0
+[OBSERVED] Autodesk AutoCAD 2026.1.2 Update; registered version=25.1.179.0
+[INFO] acad processes observed: 1; installed/running does not mean paired or connected.
+[INFO] Bridge bundle manifest: False
+[INFO] Plugin handshake/readback not performed. AutoCAD write readiness is unverified.
+Doctor only checks prerequisites. It does not prove native build, app startup, credential access, or installer operation.
+Prerequisite checks passed. Continue with pnpm dev and native smoke tests.

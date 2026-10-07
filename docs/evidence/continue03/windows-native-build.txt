@@ -1,0 +1,51 @@
+Exit: 0
+
+> @cad/desktop@0.1.0 tauri D:\PHAN DINH HOI\AutoCad_agnet\apps\desktop
+> tauri "build" "--debug" "--no-bundle"
+
+
+> @cad/desktop@0.1.0 desktop:prepare D:\PHAN DINH HOI\AutoCad_agnet\apps\desktop
+> node ../../scripts/prepare-desktop.mjs "build"
+
+
+> cad-agent-studio@0.1.0 build D:\PHAN DINH HOI\AutoCad_agnet
+> pnpm --filter @cad/desktop build
+
+
+> @cad/desktop@0.1.0 build D:\PHAN DINH HOI\AutoCad_agnet\apps\desktop
+> tsc --noEmit && vite build
+
+[36mvite v7.3.6 [32mbuilding client environment for production...[36m[39m
+transforming...
+[32m✓[39m 86 modules transformed.
+rendering chunks...
+computing gzip size...
+[2mdist/[22m[32mindex.html                 [39m[1m[2m  0.36 kB[22m[1m[22m[2m │ gzip:  0.26 kB[22m
+[2mdist/[22m[35massets/index-BDV3IRsF.css  [39m[1m[2m 13.49 kB[22m[1m[22m[2m │ gzip:  3.84 kB[22m
+[2mdist/[22m[36massets/index-BoeKbJli.js   [39m[1m[2m287.71 kB[22m[1m[22m[2m │ gzip: 89.12 kB[22m
+[32m✓ built in 1.95s[39m
+        Info Looking up installed tauri packages to check mismatched versions...
+     Running beforeBuildCommand `pnpm desktop:prepare build`
+warning: failed to parse serde attribute
+  | 
+  | deny_unknown_fields 
+  | 
+  = note: ts-rs failed to parse this attribute. It will be ignored.
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.35s
+warning: failed to parse serde attribute
+  | 
+  | deny_unknown_fields 
+  | 
+  = note: ts-rs failed to parse this attribute. It will be ignored.
+    Finished `release` profile [optimized] target(s) in 0.28s
+(node:5168) [DEP0190] DeprecationWarning: Passing args to a child process with shell option true can lead to security vulnerabilities, as the arguments are not escaped, only concatenated.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+warning: failed to parse serde attribute
+  | 
+  | deny_unknown_fields 
+  | 
+  = note: ts-rs failed to parse this attribute. It will be ignored.
+   Compiling cad-agent-studio v0.1.0 (D:\PHAN DINH HOI\AutoCad_agnet\apps\desktop\src-tauri)
+   Compiling cad-app-core v0.1.0 (D:\PHAN DINH HOI\AutoCad_agnet\crates\app-core)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 28.02s
+       Built application at: D:\PHAN DINH HOI\AutoCad_agnet\target\debug\cad-agent-studio.exe

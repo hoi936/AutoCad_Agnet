@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ApplicationPackage SchemaVersion="1.0" AppVersion="0.2.0" Name="CAD Agent Studio Read Bridge" ProductCode="{D9837021-48E8-4BB3-AD70-44A010A08B0E}">
+  <CompanyDetails Name="CAD Agent Studio" />
+  <Components>
+    <RuntimeRequirements OS="Win64" Platform="AutoCAD" SeriesMin="R25.1" SeriesMax="R25.1" />
+    <ComponentEntry AppName="CAD Agent Studio Read Bridge" ModuleName="./Contents/Windows/CadAgent.Bridge.AutoCAD.dll" AppDescription="Local read-only AutoCAD bridge" AppType=".Net" LoadReasons="LoadOnCommandInvocation">
+      <Commands GroupName="CAD_AGENT_STUDIO_R2">
+        <Command Global="CADAGENTCONNECT" Local="CADAGENTCONNECT" />
+        <Command Global="CADAGENTSTATUS" Local="CADAGENTSTATUS" />
+        <Command Global="CADAGENTDISCONNECT" Local="CADAGENTDISCONNECT" />
+      </Commands>
+    </ComponentEntry>
+  </Components>
+</ApplicationPackage>

@@ -1,0 +1,73 @@
+Exit: 0
+
+running 18 tests
+test agent::tests::consent_prevents_provider_call_and_config_never_contains_secret ... ok
+test agent::tests::new_proposal_and_provider_change_revoke_old_approvals ... ok
+test agent::tests::version_three_pending_upgrade_preserves_unknown_outcomes ... ok
+test agent::tests::version_one_migration_preserves_project_document_geometry_and_history ... ok
+test agent::tests::stale_running_state_is_interrupted_on_reopen_without_replay ... ok
+test provider_service::tests::session_opt_in_missing_key_consent_and_no_db_secret ... ok
+test tests::strict_contract ... ok
+test agent::tests::cancellation_and_one_active_run_are_persisted ... ok
+test tests::concurrent_approval_and_foreign_keys ... ok
+test agent::tests::secrets_are_redacted_from_prompt_messages_stream_and_database ... ok
+test tests::approval_resize_revert_persistence ... ok
+test agent::tests::provider_failures_are_visible_and_never_fall_back_to_success ... ok
+test tests::receipt_failure_rolls_back_geometry_and_approval ... ok
+test agent::tests::new_unsupported_request_invalidates_old_form_and_chat_approvals ... ok
+test tests::policy_reject_conflict_expiry_session ... ok
+test agent::tests::chat_create_reject_approve_resize_revert_and_restart ... ok
+test agent::tests::ask_plan_and_hostile_tool_names_are_enforced_in_backend ... ok
+test agent::tests::invalid_json_repairs_and_loop_are_bounded_without_mutation ... ok
+
+test result: ok. 18 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 1.47s
+
+
+running 3 tests
+test first_mcp_open_imports_existing_in_process_geometry_and_history ... ok
+test committed_cad_with_failed_local_receipt_recovers_without_replay ... ok
+test chat_through_real_mcp_approval_resize_revert_restart ... ok
+
+test result: ok. 3 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.85s
+
+
+running 4 tests
+test geometry::tests::rejects_invalid_parameters ... ok
+test tests::frontend_types_match_rust ... ok
+test geometry::tests::plate_and_resize ... ok
+test tests::schema_and_fixture_match_rust ... ok
+
+test result: ok. 4 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+warning: failed to parse serde attribute
+  | 
+  | deny_unknown_fields 
+  | 
+  = note: ts-rs failed to parse this attribute. It will be ignored.
+warning: failed to parse serde attribute
+  | 
+  | deny_unknown_fields 
+  | 
+  = note: ts-rs failed to parse this attribute. It will be ignored.
+   Compiling cad-app-core v0.1.0 (D:\PHAN DINH HOI\AutoCad_agnet\crates\app-core)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 3.80s
+     Running unittests src\lib.rs (target\debug\deps\cad_app_core-8ca4b8c30f70e197.exe)
+     Running tests\mcp_acceptance.rs (target\debug\deps\mcp_acceptance-d5ac354bc02eae9a.exe)
+     Running unittests src\lib.rs (target\debug\deps\cad_contracts-9c8923e336615e6c.exe)
+   Doc-tests cad_app_core
+   Doc-tests cad_contracts
+[0m[1m[38;5;11mwarning[0m[1m[38;5;15m: failed to parse serde attribute
+[0m[1m[38;5;12m  | 
+  | [0m[38;5;15mdeny_unknown_fields 
+[0m[1m[38;5;12m  | 
+  = [0m[1m[38;5;15mnote: [0m[38;5;15mts-rs failed to parse this attribute. It will be ignored.

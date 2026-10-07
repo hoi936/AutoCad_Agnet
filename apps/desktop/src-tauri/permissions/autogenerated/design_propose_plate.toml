@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-design-propose-plate"
+description = "Enables the design_propose_plate command without any pre-configured scope."
+commands.allow = ["design_propose_plate"]
+
+[[permission]]
+identifier = "deny-design-propose-plate"
+description = "Denies the design_propose_plate command without any pre-configured scope."
+commands.deny = ["design_propose_plate"]

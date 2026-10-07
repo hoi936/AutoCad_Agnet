@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-account-select-model"
+description = "Enables the account_select_model command without any pre-configured scope."
+commands.allow = ["account_select_model"]
+
+[[permission]]
+identifier = "deny-account-select-model"
+description = "Denies the account_select_model command without any pre-configured scope."
+commands.deny = ["account_select_model"]

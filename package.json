@@ -1,0 +1,24 @@
+{
+  "name": "cad-agent-studio",
+  "version": "0.1.0",
+  "private": true,
+  "packageManager": "pnpm@10.18.3",
+  "scripts": {
+    "dev": "pnpm --filter @cad/desktop dev",
+    "dev:web": "pnpm --filter @cad/desktop dev:web",
+    "lint": "pnpm --filter @cad/desktop lint",
+    "typecheck": "pnpm --filter @cad/desktop typecheck",
+    "test": "pnpm --filter @cad/desktop test",
+    "test:rust": "cargo test --locked",
+    "test:desktop": "node scripts/desktop-test.mjs",
+    "build": "pnpm --filter @cad/desktop build",
+    "package:windows": "node scripts/package-windows.mjs",
+    "demo:core": "cargo run --locked -p cad-app-core --example demo",
+    "contracts:generate": "cargo run --locked -p cad-contracts --example export",
+    "test:core": "cargo build --locked -p cad-tool-host && cargo test --locked -p cad-app-core -p cad-contracts -p cad-model-provider",
+    "test:mcp": "cargo test --locked -p cad-tool-host --features fault-injection",
+    "desktop:prepare": "node scripts/prepare-desktop.mjs",
+    "doctor:windows": "powershell.exe -NoProfile -File scripts/doctor.ps1",
+    "test:windows-scripts": "powershell.exe -NoProfile -File scripts/test-windows-scripts.ps1"
+  }
+}

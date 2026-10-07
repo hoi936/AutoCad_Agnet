@@ -1,0 +1,49 @@
+{
+    "AutoCad":  "C:\\Program Files\\Autodesk\\AutoCAD 2026\\acad.exe",
+    "Files":  [
+                  {
+                      "Name":  "acad.exe",
+                      "Path":  "C:\\Program Files\\Autodesk\\AutoCAD 2026\\acad.exe",
+                      "Bytes":  5881688,
+                      "ProductVersion":  "R25.1.179.0.0",
+                      "FileVersion":  "R25.1.179.0.0"
+                  },
+                  {
+                      "Name":  "AcMgd.dll",
+                      "Path":  "C:\\Program Files\\Autodesk\\AutoCAD 2026\\AcMgd.dll",
+                      "Bytes":  3581784,
+                      "ProductVersion":  "25.1.179.0.0",
+                      "FileVersion":  "25.1.179.0.0",
+                      "AssemblyVersion":  "25.1.0.0"
+                  },
+                  {
+                      "Name":  "AcDbMgd.dll",
+                      "Path":  "C:\\Program Files\\Autodesk\\AutoCAD 2026\\AcDbMgd.dll",
+                      "Bytes":  6758232,
+                      "ProductVersion":  "25.1.179.0.0",
+                      "FileVersion":  "25.1.179.0.0",
+                      "AssemblyVersion":  "25.1.0.0"
+                  },
+                  {
+                      "Name":  "AcCoreMgd.dll",
+                      "Path":  "C:\\Program Files\\Autodesk\\AutoCAD 2026\\AcCoreMgd.dll",
+                      "Bytes":  1029464,
+                      "ProductVersion":  "25.1.179.0.0",
+                      "FileVersion":  "25.1.179.0.0",
+                      "AssemblyVersion":  "25.1.0.0"
+                  }
+              ],
+    "Processes":  [
+                      {
+                          "Id":  2076,
+                          "Path":  "C:\\Program Files\\Autodesk\\AutoCAD 2026\\acad.exe",
+                          "StartTime":  "\/Date(1791331506643)\/"
+                      }
+                  ],
+    "DotnetSdk":  {
+
+                  },
+    "DotnetRuntimes":  {
+
+                       }
+}

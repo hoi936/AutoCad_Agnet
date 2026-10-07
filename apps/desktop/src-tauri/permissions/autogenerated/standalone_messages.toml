@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-standalone-messages"
+description = "Enables the standalone_messages command without any pre-configured scope."
+commands.allow = ["standalone_messages"]
+
+[[permission]]
+identifier = "deny-standalone-messages"
+description = "Denies the standalone_messages command without any pre-configured scope."
+commands.deny = ["standalone_messages"]

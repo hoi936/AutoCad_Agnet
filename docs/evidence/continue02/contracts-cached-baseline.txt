@@ -1,0 +1,9 @@
+
+running 4 tests
+test geometry::tests::rejects_invalid_parameters ... ok
+test tests::frontend_types_match_rust ... ok
+test geometry::tests::plate_and_resize ... ok
+test tests::schema_and_fixture_match_rust ... ok
+
+test result: ok. 4 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+

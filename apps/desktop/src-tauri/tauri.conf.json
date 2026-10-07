@@ -1,0 +1,43 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "CAD Agent Studio",
+  "version": "0.1.0",
+  "identifier": "vn.cadagent.studio",
+  "build": {
+    "beforeDevCommand": "pnpm desktop:prepare dev",
+    "devUrl": "http://localhost:1420",
+    "beforeBuildCommand": "pnpm desktop:prepare build",
+    "frontendDist": "../dist"
+  },
+  "app": {
+    "windows": [
+      {
+        "label": "main",
+        "title": "CAD Agent Studio — CAD chưa kết nối",
+        "width": 1440,
+        "height": 900,
+        "minWidth": 960,
+        "minHeight": 640
+      }
+    ],
+    "security": {
+      "csp": "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src ipc: http://ipc.localhost; object-src 'none'; frame-src 'none'; base-uri 'self'"
+    }
+  },
+  "bundle": {
+    "active": true,
+    "targets": [
+      "nsis"
+    ],
+    "shortDescription": "Trợ lý hình học 2D — Foundation",
+    "category": "Productivity",
+    "icon": [
+      "icons/32x32.png",
+      "icons/128x128.png",
+      "icons/icon.ico"
+    ],
+    "externalBin": [
+      "binaries/cad-tool-host"
+    ]
+  }
+}

@@ -1,0 +1,5 @@
+[
+ {"name":"default","width":200,"height":120,"hole_diameter":10,"edge_offset":20,"valid":true,"centers":[[20,20],[180,20],[180,100],[20,100]]},
+ {"name":"resize","width":240,"height":120,"hole_diameter":10,"edge_offset":20,"valid":true,"centers":[[20,20],[220,20],[220,100],[20,100]]},
+ {"name":"touch-edge","width":200,"height":120,"hole_diameter":10,"edge_offset":5,"valid":false}
+]

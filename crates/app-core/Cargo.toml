@@ -1,0 +1,24 @@
+[package]
+name = "cad-app-core"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+[dependencies]
+fs2 = "=0.4.3"
+cad-native-vault = { path = "../native-vault" }
+zeroize = "=1.9.0"
+
+cad-contracts = { path = "../contracts" }
+serde.workspace = true
+serde_json.workspace = true
+thiserror.workspace = true
+uuid.workspace = true
+sha2.workspace = true
+tokio.workspace = true
+sqlx.workspace = true
+cad-tool-host = { path = "../cad-tool-host" }
+cad-model-provider = { path = "../model-provider" }
+tokio-util = "0.7"
+async-trait = "0.1"
+[dev-dependencies]
+tempfile = "3"

@@ -1,0 +1,18 @@
+Exit: 0
+
+> cad-agent-studio@0.1.0 build D:\PHAN DINH HOI\AutoCad_agnet
+> pnpm --filter @cad/desktop build
+
+
+> @cad/desktop@0.1.0 build D:\PHAN DINH HOI\AutoCad_agnet\apps\desktop
+> tsc --noEmit && vite build
+
+[36mvite v7.3.6 [32mbuilding client environment for production...[36m[39m
+transforming...
+[32m✓[39m 85 modules transformed.
+rendering chunks...
+computing gzip size...
+[2mdist/[22m[32mindex.html                 [39m[1m[2m  0.36 kB[22m[1m[22m[2m │ gzip:  0.27 kB[22m
+[2mdist/[22m[35massets/index-IyYabw5S.css  [39m[1m[2m 12.97 kB[22m[1m[22m[2m │ gzip:  3.68 kB[22m
+[2mdist/[22m[36massets/index-C7XCDPX7.js   [39m[1m[2m281.70 kB[22m[1m[22m[2m │ gzip: 87.56 kB[22m
+[32m✓ built in 2.45s[39m

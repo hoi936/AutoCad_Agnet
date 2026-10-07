@@ -1,0 +1,40 @@
+Exit: 0
+
+running 1 test
+test secret::tests::windows_credential_roundtrip_and_cleanup ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 13 filtered out; finished in 0.01s
+
+   Compiling cfg-if v1.0.5
+   Compiling serde_core v1.0.229
+   Compiling tokio v1.53.2
+   Compiling futures-util v0.3.34
+   Compiling futures-channel v0.3.34
+   Compiling tracing v0.1.44
+   Compiling form_urlencoded v1.2.2
+   Compiling serde v1.0.229
+   Compiling serde_json v1.0.151
+   Compiling memchr v2.8.3
+   Compiling syn v2.0.119
+   Compiling getrandom v0.4.3
+   Compiling url v2.5.8
+   Compiling jobserver v0.1.35
+   Compiling cc v1.6.0
+   Compiling cmake v0.1.58
+   Compiling aws-lc-sys v0.45.0
+   Compiling async-trait v0.1.89
+   Compiling hyper v1.11.1
+   Compiling tower v0.5.3
+   Compiling tokio-util v0.7.19
+   Compiling tower-http v0.6.11
+   Compiling hyper-util v0.1.21
+   Compiling aws-lc-rs v1.18.1
+   Compiling rustls v0.23.45
+   Compiling rustls-webpki v0.103.15
+   Compiling tokio-rustls v0.26.6
+   Compiling rustls-platform-verifier v0.7.1
+   Compiling hyper-rustls v0.27.10
+   Compiling reqwest v0.13.5
+   Compiling cad-model-provider v0.1.0 (D:\PHAN DINH HOI\AutoCad_agnet\crates\model-provider)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 56.69s
+     Running unittests src\lib.rs (target\debug\deps\cad_model_provider-348a616e80151483.exe)

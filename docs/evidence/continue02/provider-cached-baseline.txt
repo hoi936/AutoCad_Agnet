@@ -1,0 +1,19 @@
+
+running 14 tests
+test secret::tests::poisoned_session_store_reports_vault_error ... ok
+test openai::tests::tool_mapping_is_bijective_and_optional_schema_fields_become_nullable ... ok
+test secret::tests::replace_delete_and_debug_never_reveal_secret ... ok
+test secret::tests::unsupported_vault_never_falls_back_to_plaintext ... ok
+test openai::tests::sse_decoder_preserves_utf8_and_multiline_data_at_every_byte_boundary ... ok
+test mock::tests::cancellation_interrupts_wait_and_blocked_events ... ok
+test mock::tests::hostile_fixtures_and_error_codes_are_real ... ok
+test mock::tests::create_and_resize_are_deterministic_and_unknown_prompt_is_not_success ... ok
+test openai::tests::reflected_key_is_scrubbed_across_fragments_and_never_continued ... ok
+test openai::tests::hostile_request_and_size_caps_fail_closed ... ok
+test openai::tests::http_stream_assembles_parallel_calls_and_replays_opaque_continuation_with_ids ... ok
+test openai::tests::timeout_and_cancellation_interrupt_real_http_wait ... ok
+test openai::tests::invalid_arguments_forbidden_tool_and_truncated_stream_never_return_calls ... ok
+test openai::tests::http_errors_are_classified_without_response_bodies_or_redirects ... ok
+
+test result: ok. 14 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.27s
+

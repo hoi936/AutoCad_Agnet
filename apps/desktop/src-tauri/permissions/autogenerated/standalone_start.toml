@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-standalone-start"
+description = "Enables the standalone_start command without any pre-configured scope."
+commands.allow = ["standalone_start"]
+
+[[permission]]
+identifier = "deny-standalone-start"
+description = "Denies the standalone_start command without any pre-configured scope."
+commands.deny = ["standalone_start"]

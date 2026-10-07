@@ -1,0 +1,17 @@
+node_modules/
+target/
+dist/
+*.sqlite*
+.env
+.env.*
+!.env.example
+apps/desktop/src-tauri/gen/
+*.log
+
+/apps/desktop/src-tauri/binaries/
+
+node_modules.linux/
+
+# .NET build artifacts
+[Bb]in/
+[Oo]bj/

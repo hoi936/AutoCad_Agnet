@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "width": 200.0,
+  "height": 120.0,
+  "hole_diameter": 10.0,
+  "edge_offset": 20.0,
+  "origin": [
+    0.0,
+    0.0
+  ],
+  "units": "mm",
+  "add_dimensions": true
+}
